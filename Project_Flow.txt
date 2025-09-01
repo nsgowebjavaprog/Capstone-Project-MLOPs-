@@ -21,6 +21,8 @@
 15. create a local folder as "local_s3" (temporary work)
 16. on terminal - "dvc remote add -d mylocal local_s3"
 
+--------------------------------------------------------------------------------------------
+
 17. Add code to below files/folders inside src dir:
     - logger
     - data_ingestion.py
