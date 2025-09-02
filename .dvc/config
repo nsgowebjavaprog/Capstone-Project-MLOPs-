@@ -1,0 +1,6 @@
+[core]
+    remote = mylocal
+['remote "myremote"']
+    url = ../local_s3
+['remote "mylocal"']
+    url = ../local_s3
