@@ -1,0 +1,13 @@
+data_source:
+  s3_bucket: "my-s3-bucket-name"
+  s3_key: "datasets/raw/data.csv"
+
+local_data:
+  raw_data_dir: "artifacts/data/raw"
+  raw_data_file: "artifacts/data/raw/data.csv"
+
+split_data:
+  train_path: "artifacts/data/processed/train.csv"
+  test_path: "artifacts/data/processed/test.csv"
+  test_size: 0.2
+  random_state: 42
